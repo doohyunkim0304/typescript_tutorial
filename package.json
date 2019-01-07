@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "description": "typescript blockchain tutirial",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
